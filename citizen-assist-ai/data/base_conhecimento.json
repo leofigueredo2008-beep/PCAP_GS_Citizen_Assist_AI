@@ -1,0 +1,261 @@
+[
+  {
+    "id": 1,
+    "categoria": "Documentos pessoais",
+    "titulo": "Fazer o CPF (primeira inscrição)",
+    "palavras_chave": [
+      "cpf",
+      "tirar cpf",
+      "fazer cpf",
+      "inscricao no cpf",
+      "primeiro cpf",
+      "cadastro de pessoa fisica"
+    ],
+    "resposta": "A inscrição no CPF é gratuita. Você começa pelo site da Receita Federal e depois confirma seus documentos online, por e-mail ou pessoalmente em uma unidade da Receita ou conveniada (Correios, Banco do Brasil ou Caixa). O cartão de papel não existe mais: o comprovante é digital.",
+    "documentos": [
+      "Certidão de nascimento ou casamento",
+      "Documento de identificação (se tiver)"
+    ],
+    "onde": "Site da Receita Federal (gov.br) ou unidade da Receita, Correios, Banco do Brasil ou Caixa",
+    "fonte": "https://www.gov.br/pt-br/servicos/inscrever-no-cpf",
+    "verificado_em": "2026-11-06"
+  },
+  {
+    "id": 2,
+    "categoria": "Documentos pessoais",
+    "titulo": "Tirar a primeira via do RG (Carteira de Identidade)",
+    "palavras_chave": [
+      "rg",
+      "tirar rg",
+      "carteira de identidade",
+      "identidade",
+      "cin",
+      "primeira via do rg"
+    ],
+    "resposta": "A Carteira de Identidade Nacional (CIN, o novo RG) é feita pelo órgão de identificação do seu estado, como o Instituto de Identificação ou o Poupatempo. Em geral você agenda pela internet, vai ao posto no dia marcado e tira foto e digitais. A primeira via é gratuita.",
+    "documentos": [
+      "Certidão de nascimento ou casamento (original)",
+      "CPF"
+    ],
+    "onde": "Instituto de Identificação ou posto de identificação do seu estado (ex.: Poupatempo)",
+    "fonte": "https://www.gov.br",
+    "verificado_em": "2026-11-06"
+  },
+  {
+    "id": 3,
+    "categoria": "Documentos pessoais",
+    "titulo": "Tirar o título de eleitor",
+    "palavras_chave": [
+      "titulo de eleitor",
+      "titulo eleitoral",
+      "tirar titulo",
+      "primeiro titulo",
+      "titulo net",
+      "alistamento eleitoral",
+      "votar"
+    ],
+    "resposta": "Você pode pedir o primeiro título de graça pela internet, no sistema Título Net do TSE, a partir dos 15 anos (para votar, é preciso ter 16 até o dia da eleição). Entre 16 e 17 anos o voto é opcional; a partir dos 18 é obrigatório. Em períodos perto de eleições o cadastro fica fechado: confira no site do TSE se está aberto.",
+    "documentos": [
+      "Documento oficial com foto",
+      "Comprovante de residência",
+      "Certificado de quitação militar (só para homens que completam 19 anos no ano do pedido)"
+    ],
+    "onde": "Site do TSE (Título Net) ou cartório eleitoral",
+    "fonte": "https://www.tse.jus.br",
+    "verificado_em": "2026-11-06"
+  },
+  {
+    "id": 4,
+    "categoria": "Documentos pessoais",
+    "titulo": "Alistamento militar e certificado de reservista",
+    "palavras_chave": [
+      "reservista",
+      "alistamento militar",
+      "certificado de reservista",
+      "servico militar",
+      "exercito",
+      "alistar"
+    ],
+    "resposta": "O alistamento militar é obrigatório para homens no ano em que completam 18 anos, e o prazo vai de 1º de janeiro a 30 de junho. Pode ser feito pela internet ou na junta de serviço militar. A maioria é dispensada e recebe o Certificado de Dispensa de Incorporação (CDI); o certificado de reservista é de quem presta o serviço.",
+    "documentos": [
+      "Documento de identidade com foto",
+      "CPF",
+      "Certidão de nascimento",
+      "Comprovante de residência"
+    ],
+    "onde": "Site do Serviço Militar ou junta de serviço militar da sua cidade",
+    "fonte": "https://www.gov.br/defesa",
+    "verificado_em": "2026-11-06"
+  },
+  {
+    "id": 5,
+    "categoria": "Trabalho",
+    "titulo": "Carteira de Trabalho Digital",
+    "palavras_chave": [
+      "carteira de trabalho",
+      "carteira digital",
+      "ctps",
+      "carteira de trabalho digital",
+      "tirar carteira de trabalho",
+      "carteira assinada"
+    ],
+    "resposta": "Quem tem CPF já tem a carteira de trabalho emitida: basta habilitá-la. Baixe o app Carteira de Trabalho Digital (Android e iOS) ou entre pelo site gov.br e faça login com sua conta gov.br. É gratuito e não precisa mais da carteira azul de papel.",
+    "documentos": [
+      "CPF",
+      "Conta gov.br"
+    ],
+    "onde": "App Carteira de Trabalho Digital ou portal gov.br",
+    "fonte": "https://www.gov.br/trabalho-e-emprego",
+    "verificado_em": "2026-11-06"
+  },
+  {
+    "id": 6,
+    "categoria": "Trabalho",
+    "titulo": "Conta bancária para receber o salário (conta-salário)",
+    "palavras_chave": [
+      "conta salario",
+      "conta bancaria",
+      "conta para receber salario",
+      "banco do salario",
+      "receber salario",
+      "portabilidade de salario"
+    ],
+    "resposta": "A conta-salário é aberta pela empresa em seu nome, no banco que ela escolher, e não tem custo para você. Se preferir outro banco, você pode pedir a portabilidade, de graça, para receber o salário nele. Leve seus documentos ao banco para finalizar.",
+    "documentos": [
+      "Documento de identidade com foto",
+      "CPF",
+      "Comprovante de residência"
+    ],
+    "onde": "Agência ou app do banco indicado pela empresa",
+    "fonte": "https://www.bcb.gov.br",
+    "verificado_em": "2026-11-06"
+  },
+  {
+    "id": 7,
+    "categoria": "Trabalho",
+    "titulo": "Exame admissional: o que é",
+    "palavras_chave": [
+      "exame admissional",
+      "admissional",
+      "exame medico",
+      "exame para contratar",
+      "aso",
+      "atestado de saude ocupacional"
+    ],
+    "resposta": "É o exame médico feito antes de você começar a trabalhar. A empresa é quem deve pagar e organizar. Você recebe o ASO (Atestado de Saúde Ocupacional).",
+    "documentos": [
+      "Documento com foto"
+    ],
+    "onde": "Clínica indicada pela empresa que vai contratar",
+    "fonte": "https://www.gov.br/trabalho-e-emprego",
+    "verificado_em": "2026-11-06"
+  },
+  {
+    "id": 8,
+    "categoria": "Trabalho",
+    "titulo": "Jovem Aprendiz: o que é e quem pode participar",
+    "palavras_chave": [
+      "jovem aprendiz",
+      "aprendiz",
+      "menor aprendiz",
+      "programa de aprendizagem",
+      "primeiro emprego",
+      "contrato de aprendizagem"
+    ],
+    "resposta": "É um contrato de trabalho especial para quem tem de 14 a 24 anos (sem limite de idade para pessoas com deficiência), com duração de até 2 anos. Você trabalha e estuda ao mesmo tempo em um curso de formação. Quem ainda não terminou o ensino médio precisa estar matriculado na escola. Aprendiz tem direito a férias, 13º e FGTS.",
+    "documentos": [
+      "Documento com foto",
+      "CPF",
+      "Comprovante de matrícula ou conclusão escolar"
+    ],
+    "onde": "Instituições de formação que oferecem os cursos (como Sistema S) e empresas que contratam aprendizes",
+    "fonte": "https://www.gov.br/trabalho-e-emprego",
+    "verificado_em": "2026-11-06"
+  },
+  {
+    "id": 9,
+    "categoria": "Direitos",
+    "titulo": "FGTS: o que é e como consultar",
+    "palavras_chave": [
+      "fgts",
+      "fundo de garantia",
+      "consultar fgts",
+      "saldo do fgts",
+      "saldo fgts",
+      "app fgts"
+    ],
+    "resposta": "É um dinheiro que a empresa deposita todo mês em uma conta em seu nome (8% do salário). Você consulta o saldo pelo aplicativo FGTS, da Caixa. Só pode sacar em situações previstas em lei, como demissão sem justa causa.",
+    "documentos": [
+      "CPF"
+    ],
+    "onde": "Aplicativo FGTS ou agência da Caixa",
+    "fonte": "https://www.caixa.gov.br",
+    "verificado_em": "2026-11-06"
+  },
+  {
+    "id": 10,
+    "categoria": "Direitos",
+    "titulo": "Férias e 13º salário",
+    "palavras_chave": [
+      "ferias",
+      "decimo terceiro",
+      "13 salario",
+      "13o salario",
+      "direito a ferias",
+      "quando tiro ferias"
+    ],
+    "resposta": "Depois de 12 meses de trabalho você tem direito a 30 dias de férias, com um adicional de 1/3 sobre o salário. O 13º salário é pago em duas parcelas: a primeira até 30 de novembro e a segunda até 20 de dezembro. Quem trabalhou menos de 12 meses recebe proporcional.",
+    "documentos": [
+      "Não precisa de documentos; guarde seus holerites (contracheques)"
+    ],
+    "onde": "Com o RH ou o empregador; dúvidas no Ministério do Trabalho e Emprego",
+    "fonte": "https://www.gov.br/trabalho-e-emprego",
+    "verificado_em": "2026-11-06"
+  },
+  {
+    "id": 11,
+    "categoria": "Direitos",
+    "titulo": "Onde denunciar irregularidades no trabalho",
+    "palavras_chave": [
+      "denunciar empresa",
+      "denuncia trabalhista",
+      "empresa nao assinou carteira",
+      "salario atrasado",
+      "ministerio publico do trabalho",
+      "mpt",
+      "direitos trabalhistas"
+    ],
+    "resposta": "Se a empresa não assinou sua carteira, atrasa o salário ou desrespeita seus direitos, você pode fazer denúncia ao Ministério Público do Trabalho (MPT) pelo site ou ao Ministério do Trabalho e Emprego, que faz a fiscalização. Também pode procurar o sindicato da sua categoria.",
+    "documentos": [
+      "Nome e endereço da empresa",
+      "Descrição do que aconteceu",
+      "Provas, se tiver (mensagens, fotos, holerites)"
+    ],
+    "onde": "Site do MPT, procuradoria do trabalho da sua região ou Ministério do Trabalho e Emprego",
+    "fonte": "https://www.mpt.mp.br",
+    "verificado_em": "2026-11-06"
+  },
+  {
+    "id": 12,
+    "categoria": "Direitos",
+    "titulo": "Seguro-desemprego: quando existe direito",
+    "palavras_chave": [
+      "seguro desemprego",
+      "seguro-desemprego",
+      "fui demitido",
+      "demissao",
+      "dar entrada no seguro",
+      "perdi o emprego"
+    ],
+    "resposta": "O seguro-desemprego é pago a quem foi demitido sem justa causa. O pedido deve ser feito de 7 a 120 dias depois da demissão. Na primeira solicitação, em geral é preciso ter trabalhado pelo menos 12 meses nos últimos 18, então quem acabou de começar pode ainda não ter direito.",
+    "documentos": [
+      "CPF",
+      "Documento de identidade com foto",
+      "Termo de rescisão do contrato",
+      "Carteira de Trabalho Digital"
+    ],
+    "onde": "App Carteira de Trabalho Digital, portal gov.br ou unidade do Sine",
+    "fonte": "https://www.gov.br/trabalho-e-emprego",
+    "verificado_em": "2026-11-06"
+  }
+]
