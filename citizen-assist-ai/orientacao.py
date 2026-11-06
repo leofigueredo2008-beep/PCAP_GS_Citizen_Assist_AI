@@ -21,3 +21,6 @@ class Orientacao:
         print(f"Fonte: {self.fonte} ({self.verificado_em})")
         print("Aviso: Este assistente NÃO é um canal oficial.")
 
+#apenas para teste
+teste = Orientacao("0","teste","vamos testar","teste","veja se o teste funcionou",["teste1","teste2","teste3"], "Brasil", "vozes da minha cabeca", "2026-11-06")
+teste.exibir()
