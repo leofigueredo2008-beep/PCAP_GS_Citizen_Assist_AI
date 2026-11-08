@@ -16,7 +16,7 @@ class BaseConhecimento:
         texto = texto.lower().strip()
         for letra, troca in ACENTOS.items():
             texto = texto.replace(letra, troca)
-        for sinal in "?!.,;:()":
+        for sinal in "?!.,;:()°-º":
             texto = texto.replace(sinal, " ")
         return " " + " ".join(texto.split()) + " "
 
