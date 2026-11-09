@@ -16,7 +16,7 @@ class Orientacao:
         print(f"{self.resposta}")
         print(f"Documentos necessários:")
         for i in self.documentos:
-            print(f"-{i}")
+            print(f"- {i}")
         print(f"Onde: {self.onde}")
         print(f"Fonte: {self.fonte} ({self.verificado_em})")
         print("Aviso: Este assistente NÃO é um canal oficial.")
