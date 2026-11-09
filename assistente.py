@@ -2,7 +2,6 @@
 import os
 import json
 import csv
-import re
 import time
 
 from datetime import datetime
@@ -118,10 +117,7 @@ class Assistente:
             if resposta in ("s", "n"):
                 return resposta == "s"
 
-            if resposta == "0":
-                return None
-
-            print("Entrada inválida. Digite s, n ou 0 para voltar.")
+            print("Entrada inválida. Digite s ou n")
 
 
     def perguntar(self):
