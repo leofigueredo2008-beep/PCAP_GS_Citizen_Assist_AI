@@ -245,5 +245,50 @@
         "onde": "Pelo Meu INSS ou pela Central Telefônica 135. O CRAS do município também pode orientar sobre o Cadastro Único e os critérios de acesso.",
         "fonte": "https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/beneficios-assistenciais/beneficio-assistencial-ao-idoso-e-a-pessoa-com-deficiencia-bpc",
         "verificado_em": "2026-11-09"
+    },
+    {
+        "id": 11,
+        "categoria": "Energia e serviços essenciais",
+        "titulo": "Como reduzir o consumo de energia com lâmpadas LED",
+        "palavras_chave": [
+            "economizar energia",
+            "lampada led",
+            "iluminacao eficiente",
+            "consumo eletrico",
+            "potencia das lampadas"
+        ],
+        "resposta": "Uma maneira de reduzir o consumo residencial é substituir lâmpadas de maior potência por modelos LED que ofereçam iluminação adequada. Para estimar o consumo de uma lâmpada, multiplique a potência em watts pelas horas de uso e pelos dias do período e divida o resultado por 1000. O resultado será dado em kWh. Para comparar produtos, observe a eficácia luminosa, medida em lúmens por watt, e consulte as informações de eficiência disponíveis no Inmetro. A economia depende da potência da lâmpada antiga, da potência da LED e do tempo de utilização. O preço de compra e a vida útil também devem ser considerados.",
+        "documentos": [
+            "Informação da potência da lâmpada atual",
+            "Informação da potência da lâmpada LED escolhida",
+            "Tempo médio diário de utilização"
+        ],
+        "onde": "Consulte as informações de eficiência no portal do Inmetro e compare os produtos disponíveis no comércio.",
+        "fonte": "https://www.gov.br/inmetro/pt-br/assuntos/regulamentacao/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem/tabelas-de-eficiencia-energetica/lampadas/",
+        "verificado_em": "2026-11-09"
+    },
+    {
+        "id": 12,
+        "categoria": "Energia e serviços essenciais",
+        "titulo": "Como avaliar a instalação de energia solar fotovoltaica",
+        "palavras_chave": [
+            "energia solar",
+            "painel fotovoltaico",
+            "placa solar",
+            "geracao renovavel",
+            "sistema fotovoltaico",
+            "economia solar"
+        ],
+        "resposta": "A energia solar fotovoltaica transforma a luz do sol em eletricidade por meio de módulos fotovoltaicos. Antes de instalar um sistema, é importante analisar o consumo mensal da residência, a incidência solar, a orientação e a inclinação do telhado, a existência de sombras e o espaço disponível. Solicite orçamentos que informem potência em kWp, geração estimada em kWh, equipamentos, instalação, garantias e custos de manutenção. A geração varia conforme o local e as condições do sistema. Em sistemas conectados à rede, também devem ser consideradas as regras de conexão e compensação de energia. Uma estimativa de geração não garante redução equivalente na conta, pois podem existir cobranças e componentes tarifários que permanecem.",
+        "documentos": [
+            "Contas de energia recentes para verificar o consumo",
+            "Informações sobre o telhado e o imóvel",
+            "Orçamento técnico com potência e geração estimada",
+            "Informações sobre equipamentos, garantias e instalação"
+        ],
+        "onde": "Consulte materiais técnicos da Empresa de Pesquisa Energética (EPE), as regras da ANEEL e empresas habilitadas para obter orçamentos e avaliação técnica.",
+        "fonte": "https://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/PublicacoesArquivos/publicacao-957/RT%20-%20Microrredes%20-%20FINAL.pdf",
+        "verificado_em": "2026-11-09"
     }
+
 ]

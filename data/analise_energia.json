@@ -1,0 +1,51 @@
+
+{
+    "contexto": {
+        "publico": "Famílias de baixa renda e consumidores residenciais",
+        "problema": "Consumo de eletricidade e dificuldade para avaliar alternativas de economia e geração renovável",
+        "necessidade": "Manter os serviços elétricos da residência, reduzindo o consumo comprado da rede"
+    },
+    "premissas": {
+        "consumo_mensal_referencia_kwh": 166.5,
+        "tarifa_referencia_rs_kwh": 0.8941,
+        "numero_lampadas": 5,
+        "potencia_lampada_atual_w": 60,
+        "potencia_led_w": 9,
+        "horas_uso_diario": 4,
+        "dias_por_mes": 30,
+        "preco_unitario_led_rs": 10.0,
+        "potencia_sistema_solar_kwp": 1.5,
+        "horas_sol_pico_diarias": 4.5,
+        "fator_desempenho_solar": 0.8,
+        "custo_solar_rs_por_wp": 2.66
+    },
+    "referencias": {
+        "consumo_residencial": {
+            "descricao": "Média brasileira de consumo residencial mensal: 166,5 kWh por unidade consumidora, com dados de 2025.",
+            "url": "https://arsp.es.gov.br/Media/arsi/Energia/Boletins/Boletins/4%20-%20INFORMACOES_ENERGETICAS_OUT_DEZ_2025.pdf"
+        },
+        "tarifa": {
+            "descricao": "Tarifa média residencial brasileira com tributos: R$ 894,1/MWh, equivalente a R$ 0,8941/kWh. Referência de outubro de 2025.",
+            "url": "https://arsp.es.gov.br/Media/arsi/Energia/Boletins/Boletins/4%20-%20INFORMACOES_ENERGETICAS_OUT_DEZ_2025.pdf"
+        },
+        "sistema_solar": {
+            "descricao": "A EPE cita custo médio de instalação de R$ 2,66/Wp para sistemas pequenos e médios no primeiro semestre de 2024. É uma referência histórica, não uma cotação atual.",
+            "url": "https://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/PublicacoesArquivos/publicacao-957/RT%20-%20Microrredes%20-%20FINAL.pdf"
+        },
+        "eficiencia_led": {
+            "descricao": "O Inmetro disponibiliza informações e consulta de eficiência energética de lâmpadas. Deve-se observar a eficácia luminosa e a etiqueta do produto.",
+            "url": "https://www.gov.br/inmetro/pt-br/assuntos/regulamentacao/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem/tabelas-de-eficiencia-energetica/lampadas/"
+        }
+    },
+    "observacoes": [
+        "O preço de R$ 10,00 por lâmpada LED é uma estimativa didática e deve ser substituído por uma cotação local.",
+        "A potência de 60 W representa uma lâmpada convencional hipotética; a potência real deve ser conferida no produto instalado.",
+        "A potência de 9 W representa uma lâmpada LED hipotética. Produtos diferentes podem ter eficiência diferente.",
+        "As 4,5 horas de sol pleno equivalente por dia são uma premissa de simulação, não uma medição do local.",
+        "O fator de desempenho de 0,8 representa perdas estimadas no sistema fotovoltaico.",
+        "O custo fotovoltaico de R$ 2,66/Wp é uma referência histórica e não substitui orçamento de empresa instaladora.",
+        "A economia solar é teórica: não considera cobrança mínima, regras de compensação, tributos específicos, simultaneidade entre geração e consumo, sombreamento ou condições do telhado.",
+        "Os cenários LED e solar são comparados separadamente e não devem ter suas economias somadas.",
+        "Os resultados não representam garantia de economia, retorno financeiro ou geração."
+    ]
+}
