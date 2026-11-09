@@ -28,7 +28,6 @@ def main():
         print("\nA base foi carregada, mas não possui orientações válidas.")
         return
 
-    print("\nCategorias disponíveis:", base.categorias())
 
     assistente = Assistente("Citizen Assist AI", base)
 
