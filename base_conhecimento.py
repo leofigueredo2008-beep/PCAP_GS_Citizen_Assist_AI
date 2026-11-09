@@ -81,16 +81,7 @@ class BaseConhecimento:
                         verificado_em=registro["verificado_em"],
                     )
                     self.orientacoes.append(orientacao)
-                except TypeError:
 
-
-                    try:
-                        orientacao = Orientacao(registro)
-                        self.orientacoes.append(orientacao)
-                    except Exception as erro:
-                        print(
-                            f"Aviso: registro {indice} nao foi carregado: {erro}"
-                        )
                 except Exception as erro:
                     print(f"Aviso: registro {indice} nao foi carregado: {erro}")
 
