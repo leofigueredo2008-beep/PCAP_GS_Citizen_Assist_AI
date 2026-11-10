@@ -280,7 +280,7 @@ Os números acima foram conferidos à mão e batem com a execução do programa 
 
 **Viabilidade.** A LED não depende de obras nem de imóvel próprio. A energia solar depende de telhado adequado, orientação, inclinação, sombreamento, permissão para instalar, regras de conexão e compensação da distribuidora e do capital inicial. Por isso a recomendação do assistente é **começar pela eficiência** e **avaliar a solar com orçamento técnico**.
 
-**Impactos ambientais.** A LED reduz a demanda de eletricidade e o desperdício. A solar usa uma fonte renovável e pode reduzir a energia comprada da rede. Nas duas, é preciso cuidar do descarte adequado dos equipamentos. A emissão de CO₂ evitada **não foi quantificada** nesta versão (veja as limitações).
+**Impactos ambientais.** A LED reduz a demanda de eletricidade e o desperdício. A solar usa uma fonte renovável e pode reduzir a energia comprada da rede. Nas duas, é preciso cuidar do descarte adequado dos equipamentos.
 
 **Programas que complementam a análise.** Para famílias de baixa renda, o assistente também orienta sobre a **Tarifa Social** (desconto na conta de luz) e, para quem não tem acesso à rede, o **Luz para Todos**.
 
