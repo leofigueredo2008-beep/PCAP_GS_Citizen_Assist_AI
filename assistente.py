@@ -814,7 +814,7 @@ class Assistente:
         tempo = round(time.time() - inicio, 1)
 
         self.registrar(
-            origem="pergunta",
+            origem="energia",
             pergunta="Análise de consumo e alternativas de energia",
             orientacao=None,
             encontrou=True,
