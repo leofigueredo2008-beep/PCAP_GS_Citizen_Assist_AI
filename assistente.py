@@ -886,4 +886,4 @@ class Assistente:
                 break
 
             else:
-                print("Opção inválida. Escolha 1, 2 ou 0.")
+                print("Opção inválida. Escolha 1, 2, 3 ou 0.")
