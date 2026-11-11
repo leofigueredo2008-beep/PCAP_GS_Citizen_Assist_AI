@@ -37,6 +37,28 @@ class Assistente:
 
         self.carregar_historico()
 
+    @staticmethod
+    def registro_valido(registro):
+
+        if not isinstance(registro, dict):
+            return False
+ 
+        campos = ("data", "origem", "pergunta", "id_orientacao",
+                  "encontrou", "ajudou", "tentativas", "tempo_segundos")
+ 
+        if any(campo not in registro for campo in campos):
+            return False
+ 
+        def numero(valor):
+            return isinstance(valor, (int, float)) and not isinstance(valor, bool)
+ 
+        return (
+            isinstance(registro["pergunta"], str)
+            and isinstance(registro["encontrou"], bool)
+            and (registro["ajudou"] is None or isinstance(registro["ajudou"], bool))
+            and numero(registro["tentativas"])
+            and numero(registro["tempo_segundos"])
+        )
 
     def carregar_historico(self):
 
@@ -49,15 +71,27 @@ class Assistente:
                 dados = json.load(arquivo)
 
             if isinstance(dados, list):
-                self.historico = dados
+                self.historico = []
+                ignorados = 0
+ 
+                for registro in dados:
+                    if self.registro_valido(registro):
+                        self.historico.append(registro)
+                    else:
+                        ignorados += 1
+ 
+                if ignorados:
+                    print(
+                        f"Aviso: {ignorados} registro(s) do histórico "
+                        "foram ignorados (incompletos ou inválidos)."
+                    )
             else:
                 print("Aviso: o histórico possui um formato inválido.")
                 self.historico = []
-
+ 
         except (json.JSONDecodeError, OSError):
             print("Aviso: não foi possível carregar o histórico.")
             self.historico = []
-
 
 
     def carregar_configuracao_energia(self):
@@ -467,7 +501,8 @@ class Assistente:
 
                 escritor = csv.DictWriter(
                     arquivo,
-                    fieldnames=campos
+                    fieldnames=campos,
+                    extrasaction="ignore"
                 )
 
                 escritor.writeheader()
