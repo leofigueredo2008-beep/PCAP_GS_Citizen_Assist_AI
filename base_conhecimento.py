@@ -122,10 +122,11 @@ class BaseConhecimento:
         pontos = 0
 
 
-        for palavra_chave in palavras_chave:
-            chave_normalizada = self.normalizar(palavra_chave)
-
-
+        chaves_normalizadas = {
+            self.normalizar(palavra_chave) for palavra_chave in palavras_chave
+        }
+ 
+        for chave_normalizada in chaves_normalizadas:
             if chave_normalizada.strip() and chave_normalizada in pergunta_normalizada:
                 pontos += 3
 
