@@ -18,5 +18,5 @@ class Orientacao:
         for i in self.documentos:
             print(f"- {i}")
         print(f"Onde: {self.onde}")
-        print(f"Fonte: {self.fonte} ({self.verificado_em})")
+        print(f"Fonte: {self.fonte} (verificado em {self.verificado_em})")
         print("Aviso: Este assistente NÃO é um canal oficial.")
