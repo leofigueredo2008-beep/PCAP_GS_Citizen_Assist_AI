@@ -155,60 +155,65 @@ O programa calcula e exibe: resposta encontrada (%), taxa de acerto (ajudou, %),
 
 ## 10. Teste com usuários
 
-Os atendimentos abaixo foram feitos por **pessoas de fora da equipe**, antes da gravação do vídeo, e estão em `data/historico.json` e `data/atendimentos.csv`. Não foram registrados nomes nem dados pessoais.
+O histórico do repositório foi atualizado com quatro novas perguntas informadas pela equipe como **realizadas por pessoas reais** em 11/11/2026. Os registros não contêm nomes ou dados pessoais. O sistema também registrou testes anteriores e execuções da funcionalidade de energia.
 
-- Atendimentos: **11**
-- Pessoas de fora da equipe: PREENCHER (mínimo exigido: 3; identifique abaixo, sem nomes, os atendimentos de cada pessoa)
-- Data dos testes: 09/11/2026
+- **15 perguntas em texto livre** (11 anteriores + 4 novas).
+- **19 registros no histórico ao todo**, incluindo 1 navegação por categoria e 3 execuções da análise de energia.
+- **Pessoas externas à equipe:** a quantidade exata não pode ser identificada pelo histórico, pois o programa não registra um identificador de usuário. Confirmar e preencher após conferir com os participantes.
+- **Data das novas perguntas reais:** 11/11/2026.
 
-### Indicadores obtidos
+### Indicadores do histórico completo
 
-Calculados pelo próprio programa (`indicadores()`) a partir dos 11 atendimentos:
+Calculados a partir dos 19 registros atualmente presentes em `data/historico.json`:
 
 | Indicador | Resultado |
 |-----------|-----------|
-| Resposta encontrada | **100,0%** (11 de 11) |
-| Taxa de acerto (ajudou) | **72,7%** (8 de 11) |
-| Tempo médio para encontrar | **38,3 segundos** |
+| Registros no histórico | **19** |
+| Resposta/orientação encontrada | **94,7%** (18 de 19) |
+| Avaliações positivas ("ajudou") | **73,7%** (14 de 19) |
+| Tempo médio por atendimento | **45,3 segundos** |
 | Tentativas por atendimento | **1,0** |
-| Facilidade de uso | **3,8 / 5** |
-| Dúvidas sem solução | Nenhuma: o assistente sempre mostrou uma orientação. Em 3 atendimentos, porém, a orientação mostrada **não resolveu** a dúvida (veja abaixo). |
+| Facilidade média registrada | **4,1 / 5** |
 
-### Histórico dos atendimentos
+A pergunta sobre como fazer um bolo foi corretamente tratada como fora do escopo e não recebeu orientação. Por isso, a taxa de respostas encontradas não é 100%. A taxa positiva considera os 19 registros, inclusive os atendimentos sem orientação.
 
-| # | Hora | Pergunta | Orientação mostrada | Ajudou | Tempo (s) | Nota |
-|---|------|----------|---------------------|--------|-----------|------|
-| 1 | 15:27 | Como faço para conseguir uma bolsa pelo ProUni? | 1 – ProUni | Sim | 39,9 | 3 |
-| 2 | 15:28 | Quero entrar na faculdade, mas não tenho dinheiro para pagar. Existe algum financiamento? | 1 – ProUni | **Não** | 54,1 | 3 |
-| 3 | 15:32 | Quero entrar na faculdade, mas não tenho dinheiro para pagar. Existe algum financiamento? | 2 – FIES | Sim | 42,3 | 5 |
-| 4 | 15:33 | Como funciona o Pé-de-Meia? | 3 – Pé-de-Meia | Sim | 36,1 | 5 |
-| 5 | 15:35 | Como faço para me cadastrar no Cadastro Único? | 4 – Cadastro Único | Sim | 35,8 | 4 |
-| 6 | 15:36 | Como faço para receber o Bolsa Família? | 5 – Bolsa Família | Sim | 54,0 | 4 |
-| 7 | 15:37 | Existe algum benefício do governo para ajudar a comprar gás de cozinha? | 6 – Gás do Povo | Sim | 39,9 | 4 |
-| 8 | 15:38 | Minha comunidade ainda não tem acesso adequado à energia elétrica. Existe algum programa que possa ajudar? | 8 – Tarifa Social | **Não** | 37,8 | 4 |
-| 9 | 15:38 | Como solicitar atendimento pelo Luz para Todos | 7 – Luz para Todos | Sim | 13,8 | 4 |
-| 10 | 15:40 | Minha família não tem casa própria. Como funciona o Minha Casa, Minha Vida? | 9 – Minha Casa, Minha Vida | Sim | 14,4 | 3 |
-| 11 | 15:41 | Quero diminuir minha conta de luz. Vale a pena trocar as lâmpadas comuns por lâmpadas LED? | 8 – Tarifa Social | **Não** | 53,6 | 3 |
+### Histórico das perguntas em texto livre
 
-**Atendimentos por pessoa (sem nomes):**
+| # | Data/hora | Pergunta | Orientação mostrada | Ajudou | Tempo (s) |
+|---|-----------|----------|---------------------|--------|-----------|
+| 1 | 09/11 15:27 | Como faço para conseguir uma bolsa pelo ProUni? | 1 – ProUni | Sim | 39,9 |
+| 2 | 09/11 15:28 | Quero entrar na faculdade, mas não tenho dinheiro para pagar. Existe algum financiamento? | 1 – ProUni | **Não** | 54,1 |
+| 3 | 09/11 15:32 | Quero entrar na faculdade, mas não tenho dinheiro para pagar. Existe algum financiamento? | 2 – FIES | Sim | 42,3 |
+| 4 | 09/11 15:33 | Como funciona o Pé-de-Meia? | 3 – Pé-de-Meia | Sim | 36,1 |
+| 5 | 09/11 15:35 | Como faço para me cadastrar no Cadastro Único? | 4 – Cadastro Único | Sim | 35,8 |
+| 6 | 09/11 15:36 | Como faço para receber o Bolsa Família? | 5 – Bolsa Família | Sim | 54,0 |
+| 7 | 09/11 15:37 | Existe algum benefício do governo para ajudar a comprar gás de cozinha? | 6 – Gás do Povo | Sim | 39,9 |
+| 8 | 09/11 15:38 | Minha comunidade ainda não tem acesso adequado à energia elétrica. Existe algum programa que possa ajudar? | 8 – Tarifa Social | **Não** | 37,8 |
+| 9 | 09/11 15:38 | Como solicitar atendimento pelo Luz para Todos | 7 – Luz para Todos | Sim | 13,8 |
+| 10 | 09/11 15:40 | Minha família não tem casa própria. Como funciona o Minha Casa, Minha Vida? | 9 – Minha Casa, Minha Vida | Sim | 14,4 |
+| 11 | 09/11 15:41 | Quero diminuir minha conta de luz. Vale a pena trocar as lâmpadas comuns por lâmpadas LED? | 8 – Tarifa Social | **Não** | 53,6 |
+| 12 | 11/11 10:26 | O que é FIES ? | 2 – FIES | Sim | 50,6 |
+| 13 | 11/11 10:29 | COMO SABER SE EU TENHO DIREITO AO BOLSA FAMILIA ? | 5 – Bolsa Família | Sim | 104,4 |
+| 14 | 11/11 10:31 | Como funciona o Luz para Todos ? | 7 – Luz para Todos | Sim | 64,9 |
+| 15 | 11/11 10:32 | Como fazer um bolo ? | Nenhuma (fora do escopo) | **Não** | 16,7 |
 
-- Pessoa A: atendimentos 1, 2 e 3 (a mesma pessoa; por isso a pergunta se repete)
-- Pessoa B: atendimento 4
-- Pessoa C: PREENCHER (atendimentos 5 a 11; se foram de mais de uma pessoa, acrescente a Pessoa D e as seguintes)
+### Resultado das quatro novas perguntas reais
 
-### Dúvidas que a orientação não resolveu
+- **FIES:** o assistente apresentou a orientação 2 – FIES; a pessoa respondeu que ajudou.
+- **Bolsa Família:** apresentou a orientação 5 – Bolsa Família; a pessoa respondeu que ajudou.
+- **Luz para Todos:** apresentou a orientação 7 – Luz para Todos; a pessoa respondeu que ajudou.
+- **Como fazer um bolo?:** não encontrou orientação, pois culinária não faz parte da base de conhecimento. Esse resultado demonstra o comportamento para uma pergunta fora do escopo.
 
-1. **Atendimentos 2 e 3, financiamento de faculdade.** A pergunta mostrou o ProUni (que é bolsa).
-2. **Atendimento 8, comunidade sem energia elétrica.** A pergunta mostrou a Tarifa Social, e era necessário mostrar o programa Luz para Todos
-3. **Atendimento 11, trocar lâmpadas por LED.** A pergunta mostrou a Tarifa Social, e não a orientação sobre LED.
+### Problemas identificados e melhorias
 
-### Melhorias feitas a partir do teste
+| Problema observado | Ajuste/encaminhamento |
+|--------------------|-----------------------|
+| Pergunta sobre financiamento universitário inicialmente mostrou ProUni | Foram acrescentadas palavras-chave específicas ao FIES. A repetição do teste passou a retornar FIES e foi avaliada positivamente. |
+| Comunidade sem acesso à energia inicialmente mostrou Tarifa Social | Foram acrescentadas palavras-chave relacionadas à falta de acesso à energia no registro Luz para Todos. |
+| Pergunta sobre lâmpadas LED inicialmente mostrou Tarifa Social | Foram ampliadas as palavras-chave da orientação de LED. |
+| Pergunta sobre bolo não encontrou orientação | Comportamento esperado: o assunto não pertence às 12 orientações cadastradas. |
 
-| Problema encontrado | Ajuste | Resultado |
-|---------------------|--------|-----------|
-| "Financiamento" mostrava o ProUni (atendimento 2) | Palavras-chave da orientação do FIES, como `financiamento` e `financiar faculdade` | A mesma pergunta passou a mostrar o FIES e **ajudou** (atendimento 3). Hoje: 4 pontos para o FIES contra 3 do ProUni |
-| "Trocar lâmpadas por LED" mostrava a Tarifa Social (atendimento 11) | Palavras-chave novas na orientação de LED (`lampada led`, `lampada`, `led`, `economizar energia`...) | Hoje a mesma pergunta mostra a orientação de LED, com 4 pontos, contra 3 da Tarifa Social |
-| "Comunidade sem acesso à energia elétrica" mostrava a Tarifa Social (atendimento 8): as duas orientações tinham a palavra-chave `energia elétrica`, e a Tarifa Social ganhava por ter mais palavras no título | Palavras-chave novas no Luz para Todos: `acesso a energia`, `acesso adequado a energia`, `sem acesso a energia`, `nao tem acesso a energia`, `sem luz` e `nao tem energia` | Hoje a mesma pergunta mostra o Luz para Todos, com 6 pontos (ALTA), contra 5 da Tarifa Social |
+**Observação sobre a identificação dos participantes:** o histórico não registra quem realizou cada atendimento. Não é possível afirmar, somente com o arquivo, quantas pessoas diferentes participaram. A equipe deve confirmar esse número diretamente com os participantes, sem incluir nomes no README.
 
 ## 11. Contribuição de SERS: energia e sustentabilidade
 
@@ -318,17 +323,39 @@ Os resultados são **estimativas, não garantias**.
 | Tarifa Social de Energia Elétrica | https://www.gov.br/aneel/pt-br/assuntos/tarifas/tarifa-social |
 | Luz para Todos | https://www.gov.br/mme/pt-br/destaques/Programa%20Luz%20para%20Todos/saiba-como-solicitar-acesso/saiba-como-solicitar-acesso |
 
-### 11.10 Testes com usuários: situações de energia
+### 11.10 Testes de energia (SERS)
 
-Das situações testadas na seção 10, estas são de energia:
+O histórico contém testes da busca por orientações relacionadas à energia, uma navegação pela orientação de energia solar e **três execuções da opção 3**, que compara lâmpadas LED e geração solar.
 
-| # | Situação | Resultado | Ajuste |
-|---|----------|-----------|--------|
-| 8 | Comunidade sem acesso à energia elétrica | Mostrou a Tarifa Social e **não ajudou** | Palavras-chave adicionadas ao Luz para Todos. Hoje a mesma pergunta mostra o Luz para Todos (6 pontos, ALTA) (veja a seção 10) |
-| 9 | Pedido direto sobre o Luz para Todos | Mostrou a orientação certa e **ajudou** em 13,8 s | Nenhum |
-| 11 | "Vale a pena trocar lâmpadas por LED?" | Mostrou a Tarifa Social e **não ajudou** | Palavras-chave adicionadas à orientação de LED |
+#### Testes de orientação sobre energia
 
-**Teste da análise de consumo (opção 3):** PREENCHER. Registre quantas pessoas usaram, o que entenderam, os comentários recebidos e o ajuste feito.
+| Data/hora | Situação testada | Orientação mostrada | Ajudou? | Tempo (s) |
+|-----------|------------------|---------------------|---------|-----------|
+| 09/11 15:38 | Comunidade sem acesso adequado à energia elétrica | Tarifa Social (resultado incorreto para a necessidade) | Não | 37,8 |
+| 09/11 15:38 | Solicitação de atendimento pelo Luz para Todos | Luz para Todos | Sim | 13,8 |
+| 09/11 15:41 | Troca de lâmpadas comuns por LED | Tarifa Social (resultado incorreto) | Não | 53,6 |
+| 11/11 10:31 | Como funciona o Luz para Todos? | Luz para Todos | Sim | 64,9 |
+| 11/11 10:33 | Navegação pela categoria até a orientação de energia solar fotovoltaica | Energia solar fotovoltaica | Sim | 30,6 |
+
+As duas perguntas que inicialmente retornaram uma orientação inadequada motivaram ajustes nas palavras-chave dos registros de Luz para Todos e LED. O novo teste direto sobre Luz para Todos retornou a orientação esperada.
+
+#### Testes da análise de consumo e alternativas (opção 3)
+
+| Execução | Data/hora | Resultado informado pelo usuário | Tempo (s) | Facilidade registrada |
+|----------|-----------|----------------------------------|-----------|-----------------------|
+| 1 | 11/11 10:35 | Ajudou | 69,2 | 4/5 |
+| 2 | 11/11 10:37 | Ajudou | 50,1 | 5/5 |
+| 3 | 11/11 10:38 | Não ajudou | 52,8 | 3/5 |
+
+**Resumo das três execuções:**
+
+- Análises executadas: **3**.
+- Avaliações positivas: **2 de 3 (66,7%)**.
+- Tempo médio por execução: **57,4 segundos**.
+- Facilidade média registrada: **4,0 / 5**.
+
+**Limitação do registro:** o histórico atual guarda o resultado "ajudou/não ajudou", o tempo e a nota de facilidade, mas não grava os valores de consumo, tarifa, quantidade de lâmpadas ou comentários dos participantes. Portanto, não é possível reconstruir quais parâmetros foram digitados nem explicar por que uma das pessoas respondeu que a análise não ajudou. Para os próximos testes, anotem esses dados de forma anônima em uma ficha de avaliação, sem coletar informações pessoais.
+
 
 ## 12. Fontes consultadas
 
