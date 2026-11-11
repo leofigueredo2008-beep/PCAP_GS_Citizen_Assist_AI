@@ -41,5 +41,8 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("\n\nPrograma interrompido pelo usuário.")
 
+    except EOFError:
+        print("\n\nEntrada encerrada. Até logo!")    
+
     except Exception as erro:
         print(f"\nOcorreu um erro inesperado: {erro}")
