@@ -24,7 +24,8 @@ O assistente responde **somente com o que está na base de conhecimento verifica
 11. [Contribuição de SERS: energia e sustentabilidade](#11-contribuição-de-sers-energia-e-sustentabilidade)
 12. [Fontes consultadas](#12-fontes-consultadas)
 13. [Limitações](#13-limitações)
-    
+14. [Vídeos](#14-vídeos)
+
 ## 1. Integrantes
 
 | Nome | RM |
@@ -117,7 +118,7 @@ A "inteligência" do assistente é baseada em regras: a pergunta é comparada co
 
 | Regra | Pontos |
 |-------|--------|
-| Palavra-chave da orientação que aparece na pergunta | +3 (por palavra-chave) |
+| Palavra-chave da orientação que aparece na pergunta | +3 (por palavra-chave; variantes que ficam iguais depois de normalizar, como `pé-de-meia` e `pe de meia`, contam **uma vez só**) |
 | Palavra da pergunta com 4 letras ou mais que aparece no título | +1 (cada palavra conta uma vez, mesmo repetida) |
 
 | Melhor pontuação | Resultado |
@@ -157,7 +158,7 @@ O programa calcula e exibe: resposta encontrada (%), taxa de acerto (ajudou, %),
 Os atendimentos abaixo foram feitos por **pessoas de fora da equipe**, antes da gravação do vídeo, e estão em `data/historico.json` e `data/atendimentos.csv`. Não foram registrados nomes nem dados pessoais.
 
 - Atendimentos: **11**
-- Pessoas de fora da equipe: **3** (Atendimentos: 1, 2 e 3 (Que foram feitos pela mesma pessoa, por isso mostra a mesma pergunta) e 4)
+- Pessoas de fora da equipe: PREENCHER (mínimo exigido: 3; identifique abaixo, sem nomes, os atendimentos de cada pessoa)
 - Data dos testes: 09/11/2026
 
 ### Indicadores obtidos
@@ -189,6 +190,12 @@ Calculados pelo próprio programa (`indicadores()`) a partir dos 11 atendimentos
 | 10 | 15:40 | Minha família não tem casa própria. Como funciona o Minha Casa, Minha Vida? | 9 – Minha Casa, Minha Vida | Sim | 14,4 | 3 |
 | 11 | 15:41 | Quero diminuir minha conta de luz. Vale a pena trocar as lâmpadas comuns por lâmpadas LED? | 8 – Tarifa Social | **Não** | 53,6 | 3 |
 
+**Atendimentos por pessoa (sem nomes):**
+
+- Pessoa A: atendimentos 1, 2 e 3 (a mesma pessoa; por isso a pergunta se repete)
+- Pessoa B: atendimento 4
+- Pessoa C: PREENCHER (atendimentos 5 a 11; se foram de mais de uma pessoa, acrescente a Pessoa D e as seguintes)
+
 ### Dúvidas que a orientação não resolveu
 
 1. **Atendimentos 2 e 3, financiamento de faculdade.** A pergunta mostrou o ProUni (que é bolsa).
@@ -201,6 +208,7 @@ Calculados pelo próprio programa (`indicadores()`) a partir dos 11 atendimentos
 |---------------------|--------|-----------|
 | "Financiamento" mostrava o ProUni (atendimento 2) | Palavras-chave da orientação do FIES, como `financiamento` e `financiar faculdade` | A mesma pergunta passou a mostrar o FIES e **ajudou** (atendimento 3). Hoje: 4 pontos para o FIES contra 3 do ProUni |
 | "Trocar lâmpadas por LED" mostrava a Tarifa Social (atendimento 11) | Palavras-chave novas na orientação de LED (`lampada led`, `lampada`, `led`, `economizar energia`...) | Hoje a mesma pergunta mostra a orientação de LED, com 4 pontos, contra 3 da Tarifa Social |
+| "Comunidade sem acesso à energia elétrica" mostrava a Tarifa Social (atendimento 8): as duas orientações tinham a palavra-chave `energia elétrica`, e a Tarifa Social ganhava por ter mais palavras no título | Palavras-chave novas no Luz para Todos: `acesso a energia`, `acesso adequado a energia`, `sem acesso a energia`, `nao tem acesso a energia`, `sem luz` e `nao tem energia` | Hoje a mesma pergunta mostra o Luz para Todos, com 6 pontos (ALTA), contra 5 da Tarifa Social |
 
 ## 11. Contribuição de SERS: energia e sustentabilidade
 
@@ -316,7 +324,7 @@ Das situações testadas na seção 10, estas são de energia:
 
 | # | Situação | Resultado | Ajuste |
 |---|----------|-----------|--------|
-| 8 | Comunidade sem acesso à energia elétrica | Mostrou a Tarifa Social e **não ajudou** | **Ainda não resolvido** (veja a seção 10) |
+| 8 | Comunidade sem acesso à energia elétrica | Mostrou a Tarifa Social e **não ajudou** | Palavras-chave adicionadas ao Luz para Todos. Hoje a mesma pergunta mostra o Luz para Todos (6 pontos, ALTA) (veja a seção 10) |
 | 9 | Pedido direto sobre o Luz para Todos | Mostrou a orientação certa e **ajudou** em 13,8 s | Nenhum |
 | 11 | "Vale a pena trocar lâmpadas por LED?" | Mostrou a Tarifa Social e **não ajudou** | Palavras-chave adicionadas à orientação de LED |
 
@@ -351,3 +359,10 @@ Data de verificação de todas as orientações: 09/11/2026.
 - A análise de energia usa premissas estimadas e valores de referência; **não substitui orçamento técnico**.
 - Este assistente **não é canal oficial** e não substitui a consulta ao órgão responsável.
 - O histórico fica em um arquivo local e não identifica pessoas diferentes.
+
+## 14. Vídeos
+
+| Vídeo | Duração | Link |
+|-------|---------|------|
+| Vídeo técnico de PCAP | 5 a 8 minutos | PREENCHER (YouTube, não listado) |
+| Vídeo de SERS | até 3 minutos | PREENCHER (YouTube, não listado) |
