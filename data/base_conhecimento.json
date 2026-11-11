@@ -162,7 +162,13 @@
             "sem energia",
             "eletrificação rural",
             "amazônia",
-            "amazonia"
+            "amazonia",
+            "acesso a energia",
+            "acesso adequado a energia",
+            "sem acesso a energia",
+            "nao tem acesso a energia",
+            "sem luz",
+            "nao tem energia"
         ],
         "resposta": "O Programa Luz para Todos busca levar acesso à energia elétrica à população do meio rural e a moradores de regiões remotas da Amazônia Legal que ainda não possuem acesso ao serviço público de distribuição. A solicitação pode ser feita à distribuidora de energia responsável pelo município ou pelo aplicativo Luz para Todos. É necessário informar a localização do imóvel ou local que precisa de atendimento. A distribuidora analisa as condições técnicas e os critérios do programa e informa os próximos passos e prazos.",
         "documentos": [
