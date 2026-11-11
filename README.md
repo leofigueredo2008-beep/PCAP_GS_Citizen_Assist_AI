@@ -155,12 +155,11 @@ O programa calcula e exibe: resposta encontrada (%), taxa de acerto (ajudou, %),
 
 ## 10. Teste com usuários
 
-O histórico do repositório foi atualizado com quatro novas perguntas informadas pela equipe como **realizadas por pessoas reais** em 11/11/2026. Os registros não contêm nomes ou dados pessoais. O sistema também registrou testes anteriores e execuções da funcionalidade de energia.
+O histórico do repositório guarda as perguntas realizadas pelos os usuários, e se eles estão satisfeitos com o resultado da pergunta. Os registros não contêm nomes ou dados pessoais. O sistema também registrou testes anteriores e execuções da funcionalidade de energia.
 
-- **15 perguntas em texto livre** (11 anteriores + 4 novas).
+- **15 perguntas em texto livre**
 - **19 registros no histórico ao todo**, incluindo 1 navegação por categoria e 3 execuções da análise de energia.
-- **Pessoas externas à equipe:** a quantidade exata não pode ser identificada pelo histórico, pois o programa não registra um identificador de usuário. Confirmar e preencher após conferir com os participantes.
-- **Data das novas perguntas reais:** 11/11/2026.
+- **Pessoas externas à equipe:** 4 pessoas externas à equipe utilizaram o sistema.
 
 ### Indicadores do histórico completo
 
@@ -197,11 +196,11 @@ A pergunta sobre como fazer um bolo foi corretamente tratada como fora do escopo
 | 14 | 11/11 10:31 | Como funciona o Luz para Todos ? | 7 – Luz para Todos | Sim | 64,9 |
 | 15 | 11/11 10:32 | Como fazer um bolo ? | Nenhuma (fora do escopo) | **Não** | 16,7 |
 
-### Resultado das quatro novas perguntas reais
+### Resultado das quatro perguntas reais
 
-- **FIES:** o assistente apresentou a orientação 2 – FIES; a pessoa respondeu que ajudou.
-- **Bolsa Família:** apresentou a orientação 5 – Bolsa Família; a pessoa respondeu que ajudou.
-- **Luz para Todos:** apresentou a orientação 7 – Luz para Todos; a pessoa respondeu que ajudou.
+- **FIES (O que é FIES ?):** o assistente apresentou a orientação 2 – FIES; a pessoa respondeu que ajudou.
+- **Bolsa Família (COMO SABER SE EU TENHO DIREITO AO BOLSA FAMILIA ?):** apresentou a orientação 5 – Bolsa Família; a pessoa respondeu que ajudou.
+- **Luz para Todos (Como funciona o Luz para Todos ?):** apresentou a orientação 7 – Luz para Todos; a pessoa respondeu que ajudou.
 - **Como fazer um bolo?:** não encontrou orientação, pois culinária não faz parte da base de conhecimento. Esse resultado demonstra o comportamento para uma pergunta fora do escopo.
 
 ### Problemas identificados e melhorias
@@ -212,8 +211,6 @@ A pergunta sobre como fazer um bolo foi corretamente tratada como fora do escopo
 | Comunidade sem acesso à energia inicialmente mostrou Tarifa Social | Foram acrescentadas palavras-chave relacionadas à falta de acesso à energia no registro Luz para Todos. |
 | Pergunta sobre lâmpadas LED inicialmente mostrou Tarifa Social | Foram ampliadas as palavras-chave da orientação de LED. |
 | Pergunta sobre bolo não encontrou orientação | Comportamento esperado: o assunto não pertence às 12 orientações cadastradas. |
-
-**Observação sobre a identificação dos participantes:** o histórico não registra quem realizou cada atendimento. Não é possível afirmar, somente com o arquivo, quantas pessoas diferentes participaram. A equipe deve confirmar esse número diretamente com os participantes, sem incluir nomes no README.
 
 ## 11. Contribuição de SERS: energia e sustentabilidade
 
@@ -331,9 +328,9 @@ O histórico contém testes da busca por orientações relacionadas à energia, 
 
 | Data/hora | Situação testada | Orientação mostrada | Ajudou? | Tempo (s) |
 |-----------|------------------|---------------------|---------|-----------|
-| 09/11 15:38 | Comunidade sem acesso adequado à energia elétrica | Tarifa Social (resultado incorreto para a necessidade) | Não | 37,8 |
+| 09/11 15:38 | Comunidade sem acesso adequado à energia elétrica | Tarifa Social (resultado incorreto para a necessidade, que foi ajustado posteriormente) | Não | 37,8 |
 | 09/11 15:38 | Solicitação de atendimento pelo Luz para Todos | Luz para Todos | Sim | 13,8 |
-| 09/11 15:41 | Troca de lâmpadas comuns por LED | Tarifa Social (resultado incorreto) | Não | 53,6 |
+| 09/11 15:41 | Troca de lâmpadas comuns por LED | Tarifa Social (resultado incorreto, que foi ajustado porteriormente) | Não | 53,6 |
 | 11/11 10:31 | Como funciona o Luz para Todos? | Luz para Todos | Sim | 64,9 |
 | 11/11 10:33 | Navegação pela categoria até a orientação de energia solar fotovoltaica | Energia solar fotovoltaica | Sim | 30,6 |
 
@@ -354,8 +351,7 @@ As duas perguntas que inicialmente retornaram uma orientação inadequada motiva
 - Tempo médio por execução: **57,4 segundos**.
 - Facilidade média registrada: **4,0 / 5**.
 
-**Limitação do registro:** o histórico atual guarda o resultado "ajudou/não ajudou", o tempo e a nota de facilidade, mas não grava os valores de consumo, tarifa, quantidade de lâmpadas ou comentários dos participantes. Portanto, não é possível reconstruir quais parâmetros foram digitados nem explicar por que uma das pessoas respondeu que a análise não ajudou. Para os próximos testes, anotem esses dados de forma anônima em uma ficha de avaliação, sem coletar informações pessoais.
-
+**Limitação do registro:** o histórico atual guarda o resultado "ajudou/não ajudou", o tempo e a nota de facilidade, mas não grava os valores de consumo, tarifa, quantidade de lâmpadas ou comentários dos participantes. Portanto, não é possível reconstruir quais parâmetros foram digitados nem explicar por que uma das pessoas respondeu que a análise não ajudou.
 
 ## 12. Fontes consultadas
 
